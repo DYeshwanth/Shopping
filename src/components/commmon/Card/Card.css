@@ -1,0 +1,61 @@
+.card{
+    padding: 20px;
+}
+.card-img>img{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.card-fav{
+    float: right;
+    color: gray;
+}
+
+.card-details > p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.card-details > .title{
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(165,165,165);
+}
+
+.card-details>.span1{
+    font-weight: bold;
+}
+
+.card-details>.span2{
+    color: gray;
+    padding-left: 7px;
+    text-decoration: line-through;
+}
+
+.card-details>.span3{
+    color: rgb(2, 92, 2);
+    padding-left: 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content-details{
+    position: relative;
+    transition: 0.5s;
+}
+
+.content-details>.card-size{
+    position: absolute;
+    opacity: 0;
+}
+
+.card:hover .content-details{
+    transition: 0.5s;
+    transform: translateY(-20%);
+}
+
+.card:hover .content-details>.card-size{
+    opacity: 1;
+}

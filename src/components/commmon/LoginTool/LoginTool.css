@@ -1,0 +1,38 @@
+.login{
+    border: 1px solid black;
+}
+
+.Threedots{
+    border: 1px solid black; 
+    margin-top: 10px;
+}
+
+.signup{
+    color: rgb(73, 140, 167);
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.login-first{
+    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 7px;
+    justify-content: space-between;
+}
+
+.login-next,.Threedots-first{
+    display: flex;
+    align-items: center;
+    padding: 0px 7px;
+    margin-top: 10px;
+}
+.Threedots-first>img ,.login-next>img{
+    margin-right: 10px;
+}
+
+.login-next:hover , .Threedots-first:hover{
+    cursor: pointer;
+    background-color: rgb(218, 212, 212);
+}
+

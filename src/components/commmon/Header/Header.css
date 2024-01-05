@@ -1,0 +1,72 @@
+.Header-all{
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    width: 160;
+    height: 60px;
+    background-color: aqua;
+}
+
+.Header-first{
+    margin-left: 20px;
+    background-color: rgb(238, 242, 243);
+    display: flex;
+    align-items: center;
+    width: 800px;
+    border-radius: 5px;
+}
+
+.search-icon{
+    padding: 8px 8px 8px 12px;
+}
+
+.header-inp{
+    border: none;
+    outline: none;
+    width: 300px;
+    background-color: rgb(238, 242, 243);
+
+}
+
+.Header-second>button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+    height: 40px;
+
+}
+.profile-icon , .arrow-down , .cart-icon, .seller-icon{
+    padding: 10px;
+}
+
+.Header-third button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-left: 20px;
+    border: none;
+    height: 40px;
+    background-color: white;
+}
+
+.Header-fourth button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-left: 20px;
+    height: 40px;
+    border: none;
+    background-color: white;
+}
+.Header-fifth {
+    margin-left: 20px;
+}
+
+
