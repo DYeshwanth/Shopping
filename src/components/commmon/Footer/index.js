@@ -24,7 +24,7 @@ const Footer = () => {
           <table>
             
                 <td><FontAwesomeIcon icon={faPhone} /></td>
-                <td><p>9876543210</p></td>
+                <td><p>9347649823</p></td>
             
           </table>
           
