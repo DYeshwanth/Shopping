@@ -1,0 +1,17 @@
+.Fashiontippy{
+    margin-top: -20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.Men-content{
+    width: 100px;
+    margin-left: 180px;
+    margin-bottom: -80px;
+}
+
+.Fashiontippy .Men{
+    margin-left: 30px;
+    display: flex;
+    
+}

@@ -44,6 +44,15 @@
     padding: 10px;
 }
 
+.Header-second .arrow-down{
+    transition: all 0.3s;
+}
+
+.Header-second:hover .arrow-down{
+    transform: rotate(180deg);
+}
+
+
 .Header-third button{
     display: flex;
     align-items: center;

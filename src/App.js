@@ -6,6 +6,7 @@ import Card from "./components/commmon/Card/Card";
 import alanBtn from "@alan-ai/alan-sdk-web";
 import { useEffect, useState } from "react";
 import Footer from "./components/commmon/Footer";
+import HeaderFist from "./components/commmon/Header-first/HeaderFist";
 
 function App() {
   const[ category , setCategory] = useState([])
@@ -41,6 +42,7 @@ function App() {
   return (
     <div>
       <HomePage />
+      <HeaderFist />
       <div style={{display:'flex', flexWrap : 'wrap'}}>
       {category.map((item) => (
         <Card image={item.image} name={item.name} rating={item.rating} actualPrice={item.actualPrice} offerPrice={item.offerPrice} />
